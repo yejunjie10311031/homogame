@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Homogame"
+        tools:targetApi="31">
+        <activity
+            android:name=".jqfinished"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".jqa2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".jqfinish"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".moban"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".juqinga"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".juqing"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".editname"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".about"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
