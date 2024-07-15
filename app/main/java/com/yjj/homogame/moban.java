@@ -519,10 +519,12 @@ public class moban extends AppCompatActivity {
                                 editor.putInt("lq", lq+191);
                                 editor.putInt("jqa1f", 1);
                                 editor.commit();
+                                mpstop();
                             Intent i1=new Intent(moban.this, jqfinish.class);
                             startActivity(i1);
                             finish();}
                             else{
+                                mpstop();
                                 Intent i1=new Intent(moban.this, jqfinished.class);
                                 startActivity(i1);
                                 finish();
