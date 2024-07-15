@@ -13,9 +13,17 @@
         android:theme="@style/Theme.Homogame"
         tools:targetApi="31">
         <activity
-            android:name=".jqfinished"
+            android:name=".jqa4"
             android:exported="false"
             android:screenOrientation="landscape"/>
+        <activity
+            android:name=".jqa3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".jqfinished"
+            android:exported="false"
+            android:screenOrientation="landscape" />
         <activity
             android:name=".jqa2"
             android:exported="false"
